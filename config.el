@@ -33,6 +33,7 @@
 
       ;; Leader binds
 
+      :leader "c" #'kill-current-buffer
       :leader "q" #'evil-next-buffer
       :leader "z" #'evil-prev-buffer
       :leader ":" #'eval-expression
